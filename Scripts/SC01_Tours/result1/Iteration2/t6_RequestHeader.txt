@@ -1,0 +1,10 @@
+GET /mercurysignoff.php HTTP/1.1
+Referer: http://newtours.demoaut.com/mercurypurchase2.php
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.7,th;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: newtours.demoaut.com
+Cookie: osCsid=035dbb52b699b8b4e3efdfabc8c33dd9
+

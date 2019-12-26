@@ -1,0 +1,66 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: www.newtours.demoaut.com",
+                "infFile": "t1.inf",
+                "time": 1575016545463
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: login.php",
+                "infFile": "t2.inf",
+                "time": 1575016568980
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: mercuryreservation2.php",
+                "infFile": "t3.inf",
+                "time": 1575016570421
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: mercurypurchase.php",
+                "infFile": "t4.inf",
+                "time": 1575016571890
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: mercurypurchase2.php",
+                "infFile": "t5.inf",
+                "time": 1575016573303
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: SIGN-OFF",
+                "infFile": "t6.inf",
+                "time": 1575016574861
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SC01_tours_01_home",
+                "rawStartTime": 1575016542471,
+                "rawEndTime": 1575016545467,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03166794776916504
+            },
+            {
+                "transactionName": "SC01_tours_02_login",
+                "rawStartTime": 1575016545469,
+                "rawEndTime": 1575016573304,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2341916561126709
+            },
+            {
+                "transactionName": "SC01_tours_03_logout",
+                "rawStartTime": 1575016573306,
+                "rawEndTime": 1575016574863,
+                "thinkTime": 0.0,
+                "wastedTime": 0.047673940658569339
+            }
+        ]
+    }
+]

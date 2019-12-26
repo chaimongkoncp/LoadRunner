@@ -1,0 +1,15 @@
+[t6]
+FileName1=t6.html
+URL1=http://newtours.demoaut.com/mercurysignon.php
+Total=3
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_mast_signon.gif
+URL2=http://newtours.demoaut.com/images/masts/mast_signon.gif
+FileName3=t6_submit.gif
+URL3=http://newtours.demoaut.com/images/forms/submit.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

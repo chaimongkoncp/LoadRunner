@@ -1,0 +1,704 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/java-vm"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 17,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "?.?.-29-2019",
+    "RecordingDuration": 191188,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1575015412,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 189605,
+    "TotalBytesSent": 25328,
+    "TotalRequests": 56,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:2800:147:120f:30c:1ba0:fc6:265a]",
+          "IncludeInScript": false,
+          "Name": "iecvlist.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 63,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 26292,
+              "URL": "https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml?cvlp=5168445451925504066"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::d58:daac]",
+          "IncludeInScript": false,
+          "Name": "c.urs.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 125,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 62929,
+              "URL": "https://c.urs.microsoft.com/l1.dat?cw=637103317977140582&v=3&cv=9.11.18362.0&os=10.0.18363.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::7512:ed1d]",
+          "IncludeInScript": false,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 547,
+              "EventId": 617,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::7512:ed1d]",
+          "IncludeInScript": false,
+          "Name": "crl4.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-pkcs7-crl",
+              "DownloadTime": 125,
+              "EventId": 1051,
+              "HttpStatus": 200,
+              "Size": 2958512,
+              "URL": "http://crl4.digicert.com/ssca-sha2-g6.crl"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::7512:ed1d]",
+          "IncludeInScript": false,
+          "Name": "crl3.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-pkcs7-crl",
+              "DownloadTime": 157,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 2958512,
+              "URL": "http://crl3.digicert.com/ssca-sha2-g6.crl"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "demoaut.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::c091:eba2]",
+          "IncludeInScript": true,
+          "Name": "www.newtours.demoaut.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 9281,
+              "EventId": 370,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://www.newtours.demoaut.com/login.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 687,
+              "EventId": 133,
+              "HttpStatus": 404,
+              "Size": 328,
+              "URL": "http://www.newtours.demoaut.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 407,
+              "EventId": 129,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_links.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 1274,
+              "URL": "http://www.newtours.demoaut.com/images/icn_register.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1421,
+              "EventId": 114,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_tips.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 406,
+              "EventId": 101,
+              "HttpStatus": 200,
+              "Size": 493,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_register.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 593,
+              "EventId": 98,
+              "HttpStatus": 200,
+              "Size": 376,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_vacation.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 594,
+              "EventId": 96,
+              "HttpStatus": 200,
+              "Size": 1502,
+              "URL": "http://www.newtours.demoaut.com/images/icn_destinations.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 421,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 1343,
+              "URL": "http://www.newtours.demoaut.com/images/icn_vacations.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 578,
+              "EventId": 79,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_destinations.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 594,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 510,
+              "URL": "http://www.newtours.demoaut.com/images/btn_signin.gif?osCsid=035dbb52b699b8b4e3efdfabc8c33dd9"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 610,
+              "EventId": 63,
+              "HttpStatus": 200,
+              "Size": 153,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_right.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 59,
+              "HttpStatus": 200,
+              "Size": 392,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_findflight.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 1511,
+              "URL": "http://www.newtours.demoaut.com/images/tip93.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1438,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 1209,
+              "URL": "http://www.newtours.demoaut.com/images/nav/html.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 51,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://www.newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 610,
+              "EventId": 44,
+              "HttpStatus": 200,
+              "Size": 498,
+              "URL": "http://www.newtours.demoaut.com/images/hdr_specials.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 703,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 17033,
+              "URL": "http://www.newtours.demoaut.com/images/featured_destination.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 703,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 1775,
+              "URL": "http://www.newtours.demoaut.com/images/nav/boxad1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 11412,
+              "URL": "http://www.newtours.demoaut.com/images/banner2.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 31,
+              "HttpStatus": 404,
+              "Size": 322,
+              "URL": "http://www.newtours.demoaut.com/black"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 594,
+              "EventId": 28,
+              "HttpStatus": 200,
+              "Size": 2684,
+              "URL": "http://www.newtours.demoaut.com/images/nav/logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 796,
+              "EventId": 19,
+              "HttpStatus": 200,
+              "Size": 15417,
+              "URL": "http://www.newtours.demoaut.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::c091:eba2]",
+          "IncludeInScript": true,
+          "Name": "newtours.demoaut.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 1590,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 422,
+              "EventId": 1587,
+              "HttpStatus": 200,
+              "Size": 374,
+              "URL": "http://newtours.demoaut.com/images/forms/submit.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 438,
+              "EventId": 1585,
+              "HttpStatus": 404,
+              "Size": 322,
+              "URL": "http://newtours.demoaut.com/black"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 422,
+              "EventId": 1583,
+              "HttpStatus": 200,
+              "Size": 874,
+              "URL": "http://newtours.demoaut.com/images/masts/mast_signon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 1577,
+              "HttpStatus": 200,
+              "Size": 8075,
+              "URL": "http://newtours.demoaut.com/mercurysignon.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 813,
+              "EventId": 1575,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://newtours.demoaut.com/mercurysignoff.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 875,
+              "EventId": 1305,
+              "HttpStatus": 200,
+              "Size": 533,
+              "URL": "http://newtours.demoaut.com/images/forms/backtoflights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 469,
+              "EventId": 1286,
+              "HttpStatus": 200,
+              "Size": 396,
+              "URL": "http://newtours.demoaut.com/images/forms/Logout.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 1284,
+              "HttpStatus": 200,
+              "Size": 489,
+              "URL": "http://newtours.demoaut.com/images/forms/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 719,
+              "EventId": 1255,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://newtours.demoaut.com/images/printit.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 610,
+              "EventId": 1239,
+              "HttpStatus": 404,
+              "Size": 322,
+              "URL": "http://newtours.demoaut.com/black"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 1218,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 1206,
+              "HttpStatus": 200,
+              "Size": 1191,
+              "URL": "http://newtours.demoaut.com/images/masts/mast_confirmation.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 688,
+              "EventId": 1112,
+              "HttpStatus": 200,
+              "Size": 13047,
+              "URL": "http://newtours.demoaut.com/mercurypurchase2.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 596,
+              "HttpStatus": 200,
+              "Size": 674,
+              "URL": "http://newtours.demoaut.com/images/forms/purchase.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 594,
+              "EventId": 594,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 422,
+              "EventId": 587,
+              "HttpStatus": 200,
+              "Size": 1067,
+              "URL": "http://newtours.demoaut.com/images/masts/mast_book.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 585,
+              "HttpStatus": 404,
+              "Size": 322,
+              "URL": "http://newtours.demoaut.com/black"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 516,
+              "EventId": 570,
+              "HttpStatus": 200,
+              "Size": 41956,
+              "URL": "http://newtours.demoaut.com/mercurypurchase.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 523,
+              "HttpStatus": 404,
+              "Size": 328,
+              "URL": "http://newtours.demoaut.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 508,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 438,
+              "EventId": 506,
+              "HttpStatus": 200,
+              "Size": 990,
+              "URL": "http://newtours.demoaut.com/images/masts/mast_selectflight.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 625,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 19683,
+              "URL": "http://newtours.demoaut.com/mercuryreservation2.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/java-vm",
+              "DownloadTime": 750,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 3208,
+              "URL": "http://newtours.demoaut.com/classes/calendar/showCalendar.class"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 657,
+              "EventId": 473,
+              "HttpStatus": 404,
+              "Size": 328,
+              "URL": "http://newtours.demoaut.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1562,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 1775,
+              "URL": "http://newtours.demoaut.com/images/nav/boxad1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 593,
+              "EventId": 429,
+              "HttpStatus": 200,
+              "Size": 508,
+              "URL": "http://newtours.demoaut.com/images/forms/continue.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 625,
+              "EventId": 407,
+              "HttpStatus": 404,
+              "Size": 334,
+              "URL": "http://newtours.demoaut.com/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 404,
+              "HttpStatus": 200,
+              "Size": 1049,
+              "URL": "http://newtours.demoaut.com/images/masts/mast_flightfinder.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 640,
+              "EventId": 400,
+              "HttpStatus": 200,
+              "Size": 11412,
+              "URL": "http://newtours.demoaut.com/images/banner2.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 594,
+              "EventId": 397,
+              "HttpStatus": 200,
+              "Size": 1209,
+              "URL": "http://newtours.demoaut.com/images/nav/html.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 641,
+              "EventId": 389,
+              "HttpStatus": 200,
+              "Size": 2684,
+              "URL": "http://newtours.demoaut.com/images/nav/logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 703,
+              "EventId": 377,
+              "HttpStatus": 200,
+              "Size": 14680,
+              "URL": "http://newtours.demoaut.com/mercuryreservation.php?osCsid=035dbb52b699b8b4e3efdfabc8c33dd9"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 6
+}

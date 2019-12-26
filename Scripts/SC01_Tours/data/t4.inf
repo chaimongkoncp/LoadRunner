@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.html
+URL1=http://newtours.demoaut.com/mercurypurchase.php
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_mast_book.gif
+URL2=http://newtours.demoaut.com/images/masts/mast_book.gif
+FileName3=t4_purchase.gif
+URL3=http://newtours.demoaut.com/images/forms/purchase.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

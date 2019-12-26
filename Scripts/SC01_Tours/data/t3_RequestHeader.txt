@@ -1,0 +1,13 @@
+POST /mercuryreservation2.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://newtours.demoaut.com/mercuryreservation.php?osCsid=035dbb52b699b8b4e3efdfabc8c33dd9
+Accept-Language: en-US,en;q=0.7,th;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: newtours.demoaut.com
+Content-Length: 180
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: osCsid=035dbb52b699b8b4e3efdfabc8c33dd9
+

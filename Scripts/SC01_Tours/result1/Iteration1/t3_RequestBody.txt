@@ -1,0 +1,2 @@
+"tripType=roundtrip&passCount=1&fromPort=Acapulco&fromMonth=11&fromDay=29&toPort=Acapulco&toMon"
+"th=11&toDay=29&servClass=Coach&airline=No+Preference&findFlights.x=51&findFlights.y=10"

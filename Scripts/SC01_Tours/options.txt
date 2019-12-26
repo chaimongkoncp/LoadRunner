@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\CAPPIE\Documents\VuGen\Scripts\SC01_Tours
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\cappie\documents\vugen\scripts\sc01_tours\\logfile.log
+c:\users\cappie\documents\vugen\scripts\sc01_tours\\combined_SC01_Tours.c
+c:\users\cappie\documents\vugen\scripts\sc01_tours\\pre_cci.c

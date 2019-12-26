@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.html
+URL1=http://newtours.demoaut.com/mercuryreservation2.php
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_mast_selectflight.gif
+URL2=http://newtours.demoaut.com/images/masts/mast_selectflight.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
